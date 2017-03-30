@@ -23,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/adamkiss/Ckit/issues"
   },
-  "homepage": "https://github.com/adamkiss/Ckit#readme"
+  "homepage": "https://github.com/adamkiss/Ckit#readme",
+  "dependencies": {
+    "fly": "~2.0.5",
+    "fly-autoprefixer": "~1.1.0",
+    "fly-browserify2": "~2.1.0",
+    "fly-clear": "~1.0.1",
+    "fly-esnext": "~2.0.1",
+    "fly-sass": "~2.1.0",
+    "fly-uglify": "~2.1.1",
+    "fly-watch": "~1.1.1"
+  }
 }

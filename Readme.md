@@ -11,14 +11,20 @@ Is installed globally, takes a key `ckit` from package.json and simply builds/co
 ``` json
 {
   "stuff": "in json",
-  "ckit": [
-    {
-      "compiler": "css",
-      "watch": "path/to/*.(scss|sass)",
-      "compile": ["path/to/file1.scss", "path/to/file2.sass"],
-      "target": "path/to/final/"
-    }
-  ]
+  "ckit": {
+    "browsersync": {
+      "proxy": "http://address.dev",
+      "port": 1234
+    },
+    "files": [
+        {
+          "compiler": "css",
+          "watch": "path/to/*.(scss|sass)",
+          "compile": ["path/to/file1.scss", "path/to/file2.sass"],
+          "target": "path/to/final/"
+        }
+    ]
+  }
 }
 ```
 

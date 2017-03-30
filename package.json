@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/adamkiss/Ckit#readme",
   "dependencies": {
+    "browser-sync": "~2.18.8",
     "fly": "~2.0.5",
     "fly-autoprefixer": "~1.1.0",
     "fly-browserify2": "~2.1.0",

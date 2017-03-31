@@ -2,7 +2,10 @@
   "name": "ckit",
   "version": "0.0.0",
   "description": "Supersimple global asset compiler",
-  "main": "src/index.js",
+  "main": "index.js",
+  "bin": {
+    "ckit": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,9 +33,9 @@
     "fly-autoprefixer": "~1.1.0",
     "fly-browserify2": "~2.1.0",
     "fly-clear": "~1.0.1",
-    "fly-esnext": "~2.0.1",
     "fly-sass": "~2.1.0",
     "fly-uglify": "~2.1.1",
-    "fly-watch": "~1.1.1"
+    "fly-watch": "~1.1.1",
+    "forever-monitor": "~1.7.1"
   }
 }
